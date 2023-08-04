@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "US",
+    "slug": "us",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#121214"
+    },
+    "icon": "./assets/logo.png",
+    "android": {
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.moraesdev.us"
+    },
+    "ios": {
+      "bundleIdentifier": "com.moraesdev.us",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O US precisa de acesso a sua galeria para que você possa selecionar uma nova foto de perfil."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8a18fbe1-4842-414d-832a-c35d23822570"
+      }
+    }
+  }
+}

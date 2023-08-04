@@ -1,0 +1,14 @@
+export const COLOR_DARK: ColorType = {
+  PRIMARY: "#996DFF",
+  BG: "#121214",
+  SUCCESS: "#1B873F",
+  SHAPE: "#202024",
+  SHAPE_LIGHT: "#29292E",
+  TEXT_DEFAULT: "#8D8D99",
+  TEXT_TITLE: "#E1E1E6",
+  TEXT_LOW: "#8d8d89",
+  ICON_GRAY: "#7C7C8A",
+  DANGER: "#CC2937",
+  ALERT: "#F75A68",
+  NEUTRAL: "#ffffff",
+};
